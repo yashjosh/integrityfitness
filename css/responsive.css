@@ -1,0 +1,185 @@
+@media(max-width: 767px){
+.background{
+	background
+	width: 100%;
+	float: left;
+	background: url("../images/banner_bg.jpg");
+	position: unset;
+}
+.call_us{
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.call_us img{
+	width: 25px;
+}
+.call_us span{
+	font-size: 15px;
+}
+.logo_main{
+	text-align: center;
+}
+.logo_main img{
+	position: unset;
+	width: 50%;
+	padding-top: 18px; 
+
+}
+.nav_bar{
+	width: 100%;
+	float: left;
+}
+.menu_left{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu_left li{
+	display: block;
+	padding-left: 20px;
+}
+.menu_right{
+	text-align: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu_right{
+	display: block;
+}
+.main_banner_image {
+	padding-bottom: 10px;
+}
+.main_banner_image img{
+	width: 100%;
+	position: unset;
+	display: block;
+}
+.gallary{
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+}
+.gallary_portions{
+	width: 100%;
+	position: unset;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.gallary_portions img{
+	width: 100%;
+}
+.gallary_portions a{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+.insta{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.slide_gallary li{
+	width: 50%;
+}
+.slide_gallary li img{
+	width: 100%;
+}
+.below_slides{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.customer_and_add{
+	width: 100%;
+}
+.customer img{
+	padding-right: 0px;
+	vertical-align: middle;
+}
+.address{
+	width: 100%;
+}
+.address p{
+	padding-bottom: 5px;
+}
+.address h5{
+	font-size: 15px;
+}
+.gift{
+	width: 100%;
+	padding-left: 0px;	
+}
+.giftcard{
+	width: 100%;
+	text-align: center;	
+}
+.giftcard img{
+	width: 30%;
+}
+.bowling_cards{
+	width: 100%;
+	float: none;
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+
+.join_news{
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.news{
+	width: 100%;
+	float: left;
+	margin-right: 0px;
+}
+.news input{
+	border-radius: 12px;
+	position: absolute;
+	width: 60%;
+	border:none;
+
+}
+.stay_connected{
+	width: 100%;
+	float: left;
+	padding-top: 40px;
+}
+.copyright_footer{
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+}
+.copyright_footer li{
+	padding-right: 0px;
+	margin-left: 0px;
+}
+}
+@media (min-width: 576px) and (max-width: 767px){
+
+.logo_main img{
+	width: 30%;	
+}
+.menu_left{
+	width: 50%;
+}
+.menu_left li{
+	display: inline-block;
+	padding-left: 17px;
+}
+.menu_right{
+	width: 50%;
+	text-align: none;
+
+}
+.menu_right li{
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 13px;
+}
+
+}
+@media (min-width: 768px){
+
+
+}

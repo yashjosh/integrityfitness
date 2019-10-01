@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Infinite Integrity Fitness</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">				
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="classes">
+	<header>
+	<nav>
+		<div class="navigation_menu" id="myHeader">
+			<div class="container">
+				<div class="toggle_switch">
+					<a href="#" class="toggle_btn"><img src="images/menu-button.png"></a>
+				</div>
+				<div class="toggle_menu" id="topnav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Classes.html">Classes</a></li>
+						<li><a href="#">Schedules</a></li>
+						<li><a href="#">Trainers</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Info</a></li>
+					</ul>
+				</div>
+				<div class="logo_main">
+					<a href="index.html"><img src="images/fitness.png"></a>
+			    </div>
+			    <div class="menu_navigation">
+			    	<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Classes.html">Classes</a></li>
+							<li><a href="#">Schedules</a></li>
+							<li><a href="#">Trainers</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contact.html">Contact Info</a></li>		
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</nav>
+	</header>
+	<main>
+	<div class="main_section Contact">
+		<div class="container"> 
+			<form action="/action_page.php">
+				<h3 class="heading_contact"> Please fill the details for Inquiry: </h3>
+			    <label for="fname">First Name</label>
+			    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+			    <label for="lname">Last Name</label>
+			    <input type="text" id="lname" name="lastname" placeholder="Your last name.. " required>
+
+			    <label for="country">Country</label>
+			    <select id="country" name="country" required>
+			    	<option value="NULL" placeholder="Select any one country"></option>
+			    	<option value="canada">Canada</option>
+				    <option value="australia">Australia</option>
+				    <option value="usa">USA</option>
+				    <option value="india">India</option>
+				    <option value="new zealand">New Zealand</option>
+			    </select>
+
+			    <label for="subject">Subject</label>
+			    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			    <input type="submit" value="Submit" class="btn"> 
+			</form>
+		</div>
+	</div>
+	</main>	
+	<footer>
+		<div class="join_news">
+			<div class="container">
+				<div class="bottom_nav left">
+					<h3> Navigation Menu</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Classes.html">Classes</a></li>
+						<li><a href="#">Schedules</a></li>
+					</ul>
+				</div>
+				<div class="bottom_nav left second">
+					<ul>
+						<li><a href="#">Trainers</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Info</a></li>	
+					</ul>
+				</div>
+
+				<div class="bottom_nav left">
+					<h3> Contact Information</h3>
+					<ul>
+						<li><a href="mailto:yashjosjhi27@gmail.com">Email:  yashjoshi27@gmail.com</a></li>
+						<li><a href="tel:2269888365">Call:  226-988-8365</a></li>
+						<li><a href="tel:8128685678">Fax:   8128685678</a></li>	
+					</ul>
+				</div>
+
+				<div class="news">
+					<p>JOIN OUR NEWSLETTER</p>
+					<input type="email" placeholder="Enter email address">
+	                <div class="email_bar">
+						<input type="submit" value="JOIN">
+					</div>
+				</div>
+				<div class="stay_connected">
+					<p>STAY CONNECTED</p>
+					<ul>
+						<li><a href="www.google.com" target="_blank"><img src="images/google_plus.png"></a></li>
+						<li><a href="www.facebook.com" target="_blank"><img src="images/facebook.png"></a></li>
+						<li><a href="www.twitter.com" target="_blank"><img src="images/twitter.png"></a></li>
+						<li><a href="www.instagram.com" target="_blank"><img src="images/insta.png"></a></li>
+					</ul>
+				</div>
+				<div class="copyright_footer">
+					<p>&copy 2018 Copyright Infinite Integrity Fitness.</p>
+					<li>Web Design by Yash</li>
+			    </div>
+		    </div> 
+	    </div>	
+	</footer>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script type="text/javascript">
+
+		/** toggle Menu**/
+
+		$(document).ready(function() {
+		  $('a.toggle_btn').click(function() {
+		    $(".toggle_menu").toggle();
+		  });
+		});
+
+		/** Sticky header **/
+
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+		    header.classList.add("sticky");
+		  } else {
+		    header.classList.remove("sticky");
+		  }
+		}
+	</script>			
+</body>
+</html>
